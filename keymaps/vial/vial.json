@@ -1,0 +1,156 @@
+{
+    "name": "hashihime",
+    "pid": "0x27DB",
+    "vid": "0x16C0",
+    "lighting": "vialrgb",
+
+    "matrix": {
+        "rows": 7,
+        "cols": 6
+    },
+   "layers": {"enabled" : true,
+              "max": 9
+
+   },
+
+
+"customKeycodes": [
+           { "name": "LED_PINK_lo",
+             "title": "Set PINK_lo",
+             "shortName": "PINK1"
+           },
+
+          { "name": "LED_GREE_lo",
+            "title": "Set GREEN_lo",
+             "shortName": "GREE1"
+          },
+
+          { "name": "LED_BLUE_lo",
+            "title": "Set BLUE_lo",
+             "shortName": "BLUE1"
+          },
+
+          { "name": "LED_WHIT_lo",
+            "title": "Set WHITE_lo",
+             "shortName": "WHIT1"
+          },
+
+          { "name": "LED_PURP_lo",
+            "title": "Set PURPLE_lo",
+             "shortName": "PURP1"
+          },
+
+          { "name": "LED_RED_lo",
+            "title": "Set RED_lo",
+             "shortName": "RED1"
+          },
+
+          { "name": "LED_YELL_lo",
+            "title": "Set YELLOW_lo",
+             "shortName": "YELL1"
+          },
+
+          { "name": "LED_ORAN_lo",
+            "title": "Set ORANGE_lo",
+             "shortName": "ORAN1"
+          },
+
+          { "name": "LED_CYAN_lo",
+            "title": "Set CYAN_lo",
+             "shortName": "CYAN1"
+          },
+
+          { "name": "LED_MAGE_lo",
+            "title": "Set MAGENTA_lo",
+             "shortName": "MAGE1"
+          },
+
+          { "name": "LED_GRAY_lo",
+            "title": "Set GRAY_lo",
+             "shortName": "GRAY1"
+          },
+
+           { "name": "LED_PINK_ra",
+             "title": "Set PINK_ra",
+             "shortName": "PINK2"
+           },
+
+          { "name": "LED_GREE_ra",
+            "title": "Set GREEN_ra",
+             "shortName": "GREE2"
+          },
+
+          { "name": "LED_BLUE_ra",
+            "title": "Set BLUE_ra",
+             "shortName": "BLUE2"
+          },
+
+          { "name": "LED_WHIT_ra",
+            "title": "Set WHITE_ra",
+             "shortName": "WHIT2"
+          },
+
+          { "name": "LED_PURP_ra",
+            "title": "Set PURPLE_ra",
+             "shortName": "PURP2"
+          },
+
+          { "name": "LED_RED_ra",
+            "title": "Set RED_ra",
+             "shortName": "RED2"
+          },
+
+          { "name": "LED_YELL_ra",
+            "title": "Set YELLOW_ra",
+             "shortName": "YELL2"
+          },
+
+          { "name": "LED_ORAN_ra",
+            "title": "Set ORANGE_ra",
+             "shortName": "ORAN2"
+          },
+
+          { "name": "LED_CYAN_ra",
+            "title": "Set CYAN_ra",
+             "shortName": "CYAN2"
+          },
+
+          { "name": "LED_MAGE_ra",
+            "title": "Set MAGENTA_ra",
+             "shortName": "MAGE2"
+          },
+
+          { "name": "LED_GRAY_ra",
+            "title": "Set GRAY_ra",
+             "shortName": "GRAY2"
+          }
+
+
+   ],
+
+
+    "encoder": {
+        "rotary": [
+                {"pin_a": "GP10", "pin_b": "GP9", "resolution": 4},
+                {"pin_a": "GP12", "pin_b": "GP11", "resolution": 4}
+        ]
+    },
+
+
+
+    "layouts": {
+        "keymap":[
+              [{"x":0},"0,0\n\n\n\n\n\n\n\n\ne","0,1\n\n\n\n\n\n\n\n\ne"],[{"x":2},"1,0\n\n\n\n\n\n\n\n\ne","1,1\n\n\n\n\n\n\n\n\ne"],
+              [{"y":-1,"x":0.5},"4,4"],[{"x":2.5},"4,3"],
+              [{"y":-0.5}],
+              [{"w2":6.25},"0,0"],
+              [{"y":-0.5}],
+              ["1,0","1,1","1,2","1,3","1,4","1,5"],
+              ["2,0","2,1","2,2","2,3","2,4","2,5"],
+              ["3,0","3,1","3,2","3,3","3,4","3,5"],
+              [{"x":2},"4,0","4,1"],
+	      [{"r":90,"rx":1,"ry":5,"y":-0.5,"x":3.25,"w":1.25,"h":2,"w2":1.5,"h2":1,"x2":-0.25},"4,2"]
+        ]
+
+    }
+}
